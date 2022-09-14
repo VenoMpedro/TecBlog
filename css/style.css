@@ -17,6 +17,33 @@ body{
  #area-logo, #area-menu{
  	padding: 10px;
  }
+ #area-principal{
+    width: 920px; /*tamanho bem utilizado no mercado*/
+    margin: 0px auto;
+
+ }
+ #area-postagens, #area-lateral{
+    background: orange;
+ }
+ #area-postagens{
+    width: 660px;
+    float: left;
+ }
+  #area-lateral{
+    width: 240px;
+    float: right;
+ }
+ .postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+ }
+ #rodape{
+    clear: both;/*remove sobprosição do floaT*/
+    background: #CCC;
+    text-align: center;
+    padding: 15px;
+ }
  /* formatacoes gerais*/
  h1{
  	color: #4e4e4e;
